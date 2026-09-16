@@ -100,3 +100,49 @@ print(n[0,1])
 # arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 # newarr = arr.reshape(4, 3)
 # print(newarr)
+
+# import numpy as np
+# arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+# newarr = arr.reshape(2, 3, 2)
+# print(newarr)
+
+# ============================================================================================================
+# ----------------------- ITERATING ndarray -----------------------------
+#                               2D  
+# import numpy as np
+# n = np.array([ [ 1, 2, 3] , [5, 6, 7] , [8,9,0] ])
+# for a in n:
+#     print(a)
+
+#                               3D
+ 
+# import numpy as np
+# n = np.array([ [[ 1, 2, 3] , [5, 6, 7]] , [[8,9,0] , [0 , 0 , 0]] ])  
+# for a in n :
+#     print(a)
+
+# ============================================================================================================
+# ------------------------ JOINING ndarray -----------------------------
+
+# import numpy as np
+# n = np.array([  1, 2, 3 ,5, 6, 7 ])
+# n2 = np.array( [8,9,0 ])
+# for a in n:
+#     print(a)
+
+# for a in n2:
+#     print(a)
+
+# joined_array = np.concatenate((n,n2))
+# print(joined_array)
+
+# ============================================================================================================
+"------------------------ RANDOM NUMBER -----------------------------"
+
+# ~Random : something that can not be predicted logically.
+# import numpy as np
+# import random
+# number = random.randint(1,10)
+# print(number)
+
+# you can expect random float value from 0 to 1 when no value is passed
