@@ -146,3 +146,56 @@ print(n[0,1])
 # print(number)
 
 # you can expect random float value from 0 to 1 when no value is passed
+
+#                               1D having 2 Random integer
+# from numpy import random
+# number = random.randint(100, size = (2))
+# print(number)
+
+#                               2D having 2 rows each with 5 random integer
+# from numpy import random
+# number = random.randint(100, size = (2,5))
+# print(number)
+
+#                               Using CHOICE keyword  
+# from numpy import random
+# number = random.choice([1,2,3,4,5])
+# print(number)
+
+#                                
+# from numpy import random
+# number = random.choice([1,2,3,4,5], size=(2,3))
+# print(number)
+
+" ------------------------ DATA DISTRIBUTION -----------------------------"
+
+# important while working with statistics and data science
+# data distribution is a list of all possible value and how often each value occur
+
+# ~generating random number with probablity of size 100
+# from numpy import random 
+# number = random.choice([3,5,7,9], p = [0.1,0.3,0.6,0.0], size = (100))
+# print (number)
+
+# ~generating random number with probablity having 3 rows and 5 value each
+# from numpy import random 
+# number = random.choice([3,5,7,9], p = [0.1,0.3,0.6,0.0], size = (3,5))
+# print (number)
+
+" ------------------------ RANDOM PERMUTATIONS and SHUFFLING -----------------------------"
+# permutation : refers to [ 1,2,3] as [3,2,1] 
+# shuffling is default method of random module
+
+# ~shuffle() always changes original value
+# from numpy import random 
+# import numpy as np
+# n = np.array ([1,2,3,4,5])
+# random.shuffle(n)
+# print (n)
+
+# ~permutation() needs to be saved to a new variable
+# from numpy import random 
+# import numpy as np
+# n = np.array ([1,2,3,4,5])
+# number = random.permutation(n)
+# print (number)
