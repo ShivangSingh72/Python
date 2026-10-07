@@ -199,3 +199,62 @@ print(n[0,1])
 # n = np.array ([1,2,3,4,5])
 # number = random.permutation(n)
 # print (number)
+
+" --------------------------------- SEABORN ---------------------------------------"
+# seaborn is a library that uses matplotlib underneath plot graph
+# pyplot is submodule
+# distplot : distribution plot( curve plot - histogram)
+
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# sns.distplot( [0,1,2,3,4,5] )
+# plt.show()
+
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# sns.distplot( [0,1,2,3,4,5] , hist = False)
+# plt.show()
+
+"------------------------ NORMAL DISTRIBUTION (bell curve -gaussian curve) -----------------------------"
+# random.normal() : loc(mean) , scale(standard deviation) , size
+
+# ~and standard deviation 2
+# from numpy import random 
+# number = random.normal( loc = 1, scale = 2, size= (2,3))
+# print(number)
+
+# ~visualization of normal distribution
+# from numpy import random
+# import matplotlib.pyplot as plt
+# import seaborn as sns 
+# sns.distplot( random.normal( size = 1000), hist = True , kde = False)
+# plt.show()
+
+"------------------------ BINOMIAL DISTRIBUTION -----------------------------"
+# binomial dist : discrete dist 
+# parameter - n(no. of trials) , p - probability , size
+
+# ~given 10trial for a coin which will generate 10 data points
+# from numpy import random 
+# number = random.binomial ( n =10 , p = 0.5 ,size =10 )
+# print(number)  
+
+# ~visualization of binomial dist
+# from numpy import random 
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# sns.distplot( random.binomial ( n =10 , p = 0.5 ,size =1000 ),
+# hist = True , kde = False)
+# plt.show()
+
+# difference b/w normal and binomial is normal has continuous generation of output or data
+# but binomial has discrete visualization of graph
+
+"------------------------ POISSON DISTRIBUTION -----------------------------"
+# poisson distribution: number of occurence or prediction of an event 
+# based on given or previous data
+# parameter : lam(number of occurence or rate)
+
+# from numpy import random
+# number = random.poisson(lam = 50 , size =10)
+# print(number)
