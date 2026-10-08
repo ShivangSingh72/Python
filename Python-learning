@@ -329,3 +329,28 @@ print(n[0,1])
 # import seaborn as sns
 # sns.displot(random.multinomial(n = 10, pvals = [0.1,0.3,0.5,0.1] ,size = 1000))
 # plt.show()
+"------------------------ EXPONENTIAL DISTRIBUTION ---------------------------------------------"
+# exponential dist : used for decribing time till next event that is like succes or failure
+# parameter : scale(inverse of rate (refer lam poisson)) , size
+
+# from numpy import random
+# number = random.exponential(scale = 50, size = (2,3))
+# print(number)
+
+# lam (lambda) means: How many times something happens on average.
+# If lam = 4, it means:
+
+# "Usually, this thing happens 4 times."
+# But in reality, it could happen 3 times, 5 times, 6 times, 2 times, etc.
+# It changes every time, but the average is around 4.
+
+# ~output for lam = 50 in poisson , where avg is arroud 50 :
+# [64 50 46 47 40 48 46 48 55 37]
+
+# ~output for lam = 50 in exponential where these values shows time b/w 2 occurence 
+# which can go low as '0' and high as '225' :
+# [[235.80313867  69.39298717 130.00761921]
+#  [ 61.81464848   0.85924334  17.12230676]]
+
+# lam = 50 in Poisson	Happens ~50 times (gives counts like 49, 50)
+# lam = 50 in Exponential	Time between events is usually small, but can be big sometimes
