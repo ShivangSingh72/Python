@@ -428,3 +428,21 @@ print(n[0,1])
 # sns.displot(number,kde = False)
 # plt.show()
 
+# 1. number[number > 1]
+# Meaning: You're filtering the data to only include values greater than 1.
+# Appearance: A few narrow bars at the beginning (low frequencies).
+
+# 2. number[number < 1]
+# Meaning: You're filtering to values less than 1.
+# Result: The graph will be empty — or may raise a warning or show no histogram.
+# Appearance: Blank plot or no bars at all.
+# Because Zipf never generates values < 1
+
+# 3. number ( for a is smaller)
+# A tall bar at 1 (most frequent)
+# Bars for 2, 3, 4, ... decreasing in height
+# A long tail with rare large values
+
+# 4. number (for a is large)
+# a tall single bar covering entire tail of values and height of frequency
+# bar close to 1
