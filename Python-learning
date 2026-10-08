@@ -370,3 +370,30 @@ print(n[0,1])
 # from numpy import random
 # number = random.rayleigh (scale = 2 ,size=(2,3)) 
 # print(number)
+
+"------------------------ NUMPY PARETO DISTRIBUTION -----------------------------"
+# pareto dist : 80:20 rati. (20% factor cause 80% outcome or result)
+# parameter : a(shape) , size
+
+# from numpy import random 
+# number = random.pareto( a= 2 , size =(2,3))
+# print(number)
+
+# If a is small, you get very large values. 
+# If a is big, you get more values near 0.
+
+# ~visualization
+# from numpy import random 
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# sns.displot(random.pareto( a =0.5 ,size = 1000) , kde = False)
+# plt.show()
+
+# here the graph representation is :
+# frequency (y) , value (x)
+
+# when shape is 60, all the values are close to 1, the frequency drops quickly as 
+# value increases
+
+# a = 60 → values close to 1, safe, narrow.
+# a = 0.5 → big wild values, risky, long tail.
