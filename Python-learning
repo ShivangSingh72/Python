@@ -354,3 +354,19 @@ print(n[0,1])
 
 # lam = 50 in Poisson	Happens ~50 times (gives counts like 49, 50)
 # lam = 50 in Exponential	Time between events is usually small, but can be big sometimes
+
+"------------------------ CHI SQUARE DISTRIBUTION ---------------------------------------------"
+# chi square dist : is used as a basis to verify the hypothesis
+# parameter : df(degree of freedom) , size
+
+# from numpy import random
+# number = random.chisquare(df = 1, size = (2,3))
+# print(number)
+
+"------------------------ RAYLEIGH DISTRIBUTION -----------------------------"
+# rayleigh dist : it is used in signal processing
+# parameter : scale(standard deviation , how float is the distributin is ...default 1.0) , size
+
+# from numpy import random
+# number = random.rayleigh (scale = 2 ,size=(2,3)) 
+# print(number)
