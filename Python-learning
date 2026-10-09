@@ -446,3 +446,33 @@ print(n[0,1])
 # 4. number (for a is large)
 # a tall single bar covering entire tail of values and height of frequency
 # bar close to 1
+
+" ------------------------ SUMMARY of DISTRIBUTION -------------------------------"
+
+
+
+# | Group             | Includes                                                             | Relationship                    |
+# | ----------------- | -------------------------------------------------------------------- | ------------------------------- |
+# | **Discrete**      | Poisson, Zipf                                                        | Count things                    |
+# | **Continuous**    | Normal, Logistic, Uniform, Exponential, Pareto, Rayleigh, Chi-square | Measure values or time          |
+# | **Power law**     | Pareto, Zipf                                                         | Few big things, many small ones |
+# | **Time-based**    | Poisson (how often), Exponential (how long between)                  | Related                         |
+# | **Visualization** | Seaborn                                                              | Used to see shape of all above  |
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+# | Term                  | Simple Meaning                              |
+# | --------------------- | ------------------------------------------- |
+# | Random Numbers        | Any unpredictable number                    |
+# | Data Distributions    | Random numbers following a shape/pattern    |
+# | Permutation/Shuffling | Mixing the order of data randomly           |
+# | Seaborn               | Tool to plot and see data visually          |
+# | Normal (Gaussian)     | Bell-shaped curve (average is common)       |
+# | Poisson               | How many times something happens            |
+# | Uniform               | All values equally likely                   |
+# | Logistic              | Like normal, but steeper                    |
+# | Exponential           | Time between events                         |
+# | Chi-square            | For stats and testing                       |
+# | Rayleigh              | Signal-related modeling                     |
+# | Pareto                | 80/20 rule - few big, many small            |
+# | Zipf                  | Few items happen a lot (e.g., common words) |
