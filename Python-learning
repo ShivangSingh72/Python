@@ -476,3 +476,17 @@ print(n[0,1])
 # | Rayleigh              | Signal-related modeling                     |
 # | Pareto                | 80/20 rule - few big, many small            |
 # | Zipf                  | Few items happen a lot (e.g., common words) |
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+# | **Distribution** | **Shape When `a=2`**            | **Shape When `a=60`**          | **Use Case**                           | **Example**              |
+# | ---------------- | ------------------------------- | ------------------------------ | -------------------------------------- | ------------------------ |
+# | **Normal**       | Wide bell curve                 | Narrow bell curve              | Natural phenomena, test scores         | Height of students       |
+# | **Poisson**      | Spread counts (more variance)   | Sharp spike at 60              | Count of events over time              | Emails per hour          |
+# | **Uniform**      | Equal chance across [0,2]       | Equal chance across [0,60]     | Random picks, simulations              | Dice roll                |
+# | **Logistic**     | Bell-like but steeper sides     | Very steep and narrow bell     | Used in ML classification              | Logistic regression      |
+# | **Exponential**  | Long tail, more spread          | Very short tail, tight values  | Time between events                    | Time between buses       |
+# | **Chi-square**   | Asymmetric, positive values     | Very sharp peak, small spread  | Hypothesis testing, stats              | Chi-square test          |
+# | **Rayleigh**     | Peak shifted right, smooth tail | Peak closer to 0, sharp drop   | Signal processing, wind speed modeling | Wireless signal strength |
+# | **Pareto**       | Heavy long tail (many big vals) | Spiky near 1, few large values | 80/20 rule modeling                    | Income distribution      |
+# | **Zipf**         | Long tail (many high numbers)   | Mostly 1s, few large values    | Word frequency, NLP                    | "the" vs rare words      |
