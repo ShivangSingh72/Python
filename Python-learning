@@ -547,3 +547,17 @@ print(n[0,1])
 # num2 = np.array([1, 2, 3, 4, 5, 6])
 # numnew = np.subtract(num1 , num2)
 # print(numnew)
+
+'*'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.multiply(num1 , num2)
+# print(numnew)
+
+'/'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.divide(num1 , num2)
+# print(numnew)
