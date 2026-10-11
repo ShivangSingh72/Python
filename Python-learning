@@ -531,3 +531,19 @@ print(n[0,1])
 # positional arguments are basically variables defined inside the function defintion
 "checking if this 'myadd' function is defined universally"
 # print(type(np.add))
+
+" ------------------------ ARITHEMETIC OPERATOR -------------------------------"
+
+'+'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.add(num1 , num2)
+# print(numnew)
+
+'-'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.subtract(num1 , num2)
+# print(numnew)
