@@ -588,3 +588,17 @@ print(n[0,1])
 # import numpy as np
 # num1 = np.around(1.12564, 2)
 # print(num1)
+
+'floor : round off decimals to lower integer'
+# imagine moving right to left everytime on number line
+
+# import numpy as np
+# num1 = np.floor([-5, 2.7865])
+# print(num1)
+
+'ceil() : round off decimals to upper integer'
+# imagine moving left to right everytime on number line
+
+# import numpy as np
+# num1 = np.ceil([-5, 2.7865])
+# print(num1)
