@@ -575,3 +575,16 @@ print(n[0,1])
 # num2 = np.array(list(reversed([1, 2, 3, 4, 5, 6])))
 # numnew = np.remainder(num1 , num2)
 # print(numnew)
+
+" ------------------------ ROUNDING DECIMALS -------------------------------"
+'truncation : trunc() and fix()'
+# these commands remove the decimal and return the float number closet to zero
+
+# import numpy as np
+# num1 = np.trunc([1.12564, 2.4865])
+# print(num1)
+
+'roundoff : around()'
+# import numpy as np
+# num1 = np.around(1.12564, 2)
+# print(num1)
