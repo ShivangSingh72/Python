@@ -602,3 +602,22 @@ print(n[0,1])
 # import numpy as np
 # num1 = np.ceil([-5, 2.7865])
 # print(num1)
+
+" ------------------------                              -------------------------------"
+# summation : addition is done b/w 2 arguments whereas summation is done over n elements
+
+'addition'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.add(num1 , num2)
+# print(numnew)
+'[ 2  4  6  8 10 12]'
+
+'summation'
+# import numpy as np
+# num1 = np.array([1, 2, 3, 4, 5, 6])
+# num2 = np.array([1, 2, 3, 4, 5, 6])
+# numnew = np.sum([num1 , num2])
+# print(numnew)
+# '42'
