@@ -630,3 +630,14 @@ print(n[0,1])
 # print(numnew)
 '[21 21]'
 # axis is dimension depended
+
+'cumulative sum : partially adding the element in array'
+# for example : [1, 2, 3, 4] = 1, 1+2, 1+2+3, 1+2+3+4
+ 
+# import numpy as np
+# num1 = np.array([[1, 2, 3] ,[7, 8, 9]])
+# numnew = np.cumsum(num1 , axis =1)
+# print(numnew) 
+
+'''Use [] to define array data
+Use () for function calls like np.array(...)'''
