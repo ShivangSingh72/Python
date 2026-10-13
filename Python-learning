@@ -641,3 +641,9 @@ print(n[0,1])
 
 '''Use [] to define array data
 Use () for function calls like np.array(...)'''
+
+# num = int(input("your num:"))
+# while num<1 or num>10:
+#     print (f" {num} is not valid")
+#     num = int(input("your num:"))
+# print ({num})
