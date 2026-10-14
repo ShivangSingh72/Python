@@ -3,3 +3,12 @@
 #     print (f" {num} is not valid")
 #     num = int(input("your num:"))
 # print ({num})
+
+# ============================================================================================================
+# ------------------------ #calculator  -----------------------------
+
+# while True:  # Main menu
+#     choice = input("1. Add | 2. Multiply | q. Quit: ")
+
+#     if choice == 'q':
+#         break
