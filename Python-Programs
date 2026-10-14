@@ -12,3 +12,11 @@
 
 #     if choice == 'q':
 #         break
+
+#     while True:  # Sub-loop for inputs
+#         try:
+#             num1 = float(input("Enter num1: "))
+#             num2 = float(input("Enter num2: "))
+#             break
+#         except ValueError:
+#             print("Please enter valid numbers.")
