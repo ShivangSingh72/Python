@@ -51,3 +51,17 @@
 #     time.sleep(1)    
 
 # print("time's up")
+
+# ============================================================================================================
+# ------------------------ #shopping cart  -----------------------------
+
+# foods = []
+# prices = []
+# while True:
+#     food = input("enter food:")
+#     if food.lower() =="q":
+#         break
+#     else:
+#         price = float (input(f"enter price {food}: "))
+#         foods.append(food)
+#         prices.append(price)
