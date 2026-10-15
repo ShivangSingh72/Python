@@ -65,3 +65,6 @@
 #         price = float (input(f"enter price {food}: "))
 #         foods.append(food)
 #         prices.append(price)
+# print()
+# for food in foods:
+#     print(food)
