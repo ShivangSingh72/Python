@@ -79,3 +79,15 @@
 # quesses = []
 # score = 0
 # question_no = 0
+
+# for question in questions:
+#     print (question)
+#     for option in options[question_no]:
+#         print(option)
+    
+#     quesses = input("a guess:")
+#     if quesses == answers[question_no]:
+#         score += 1
+#         print ("correct")
+#     else :
+#         print(f"incorrect, the answer is {answers}")
