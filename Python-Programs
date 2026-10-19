@@ -118,3 +118,13 @@
 #     else:
 #         print("invalid")
 # print(guesses)
+
+# ============================================================================================================
+# Netflix Console Clone (Python + Dictionary + Functions)
+
+movies = {
+    "Inception": {"genre": "Sci-Fi", "rating": 9.0},
+    "Interstellar": {"genre": "Sci-Fi", "rating": 8.6},
+    "The Office": {"genre": "Comedy", "rating": 8.9},
+    "Squid Game": {"genre": "Thriller", "rating": 7.9}
+}
