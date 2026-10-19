@@ -102,3 +102,19 @@
 # guesses = 0
 # is_running = True
 # print(f" number guessing game{lowest_num } and {highest_num}")
+# while is_running:
+#     guesses = input("enter a guess")
+#     if guesses.isdigit():
+#         guesses = int(guesses)
+#         guesses +=1
+#         if guesses<lowest_num or guesses>highest_num:
+#             print("number out of range")
+#         elif guesses<answers :
+#             print("too low")
+#         elif guesses>answers :
+#             print("too high")
+#         else:
+#             print(f" correct answer was {answers}")
+#     else:
+#         print("invalid")
+# print(guesses)
