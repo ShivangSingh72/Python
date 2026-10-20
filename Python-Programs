@@ -128,3 +128,8 @@ movies = {
     "The Office": {"genre": "Comedy", "rating": 8.9},
     "Squid Game": {"genre": "Thriller", "rating": 7.9}
 }
+def show_menu():
+    print("=== Welcome to PyFlix ===")
+    print("1. View All Movies")
+    print("2. Search by Genre")
+    print("3. Exit")
