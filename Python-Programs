@@ -133,3 +133,12 @@ def show_menu():
     print("1. View All Movies")
     print("2. Search by Genre")
     print("3. Exit")
+    for title, info in movies.items():
+        print(f"{title} - {info['genre']} (Rating: {info['rating']})")
+
+def search_genre(genre):
+    
+    for title, info in movies.items():
+        if info['genre'].lower() == genre.lower():
+            print(f"Movies in {genre} genre:")
+            print(f"{title} - Rating: {info['rating']}")
