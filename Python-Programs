@@ -156,3 +156,12 @@ while True:
         break
     else:
         print("Invalid choice.")
+
+# age = 36
+# txt = "My name is John, I am {age}"
+# print(txt)
+
+# ============================================================================================================
+
+# import random
+# print(random.randrange(1, 10))       ///random no. printing 
