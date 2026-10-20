@@ -165,3 +165,16 @@ while True:
 
 # import random
 # print(random.randrange(1, 10))       ///random no. printing 
+# ===========================================================================================================
+
+# txt = "We are the so-called \"Vikings\" from the north."
+# print(txt)
+
+# =============================================================================================================
+
+# class myclass():
+#   def __len__(self):
+#     return 0
+
+# myobj = myclass()
+# print(bool(myobj))
