@@ -142,3 +142,17 @@ def search_genre(genre):
         if info['genre'].lower() == genre.lower():
             print(f"Movies in {genre} genre:")
             print(f"{title} - Rating: {info['rating']}")
+while True:
+    show_menu()
+    choice = input("Choose option: ")
+
+    if choice == '1':
+        display_movies()
+    elif choice == '2':
+        genre = input("Enter genre: ")
+        search_genre(genre)
+    elif choice == '3':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice.")
