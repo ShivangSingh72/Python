@@ -300,3 +300,18 @@ print(keys)
 # for fruit in fruits:
 #     print(fruit)
 #     print(fruits)
+
+# ============================================================================================================
+# ------------------------ DICTIONARY OPERATIONS-----------------------------
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict.items())
+
+# for x,y in thisdict.items():
+#     print(x,y)
+
+# print("-------------------------------------------------")
