@@ -259,3 +259,18 @@ child3 = {
   "name:" : "Linus",
   "year:" : 2011
 }
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+
+for x,y in child1.items():
+	print(x,y)
+
+keys = myfamily.keys()
+for key in keys:
+	print(f"inside :{key}")
+print(keys)
