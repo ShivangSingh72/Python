@@ -293,3 +293,10 @@ print(keys)
 #         print(f" {key} : {value}")
 #     function1 (keyword1="keyvalue1",keyword2="keyvalue2",keyword3="keyvalue3")
 #     print(f" {key} : {value}")
+
+# ============================================================================================================
+
+# fruits = {"a", "b","c"}
+# for fruit in fruits:
+#     print(fruit)
+#     print(fruits)
