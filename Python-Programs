@@ -284,4 +284,12 @@ print(keys)
 # print(collections)
 
 # for x in collections :    
-#     print(x
+#     print(x)
+
+# ============================================================================================================
+
+# def function1(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f" {key} : {value}")
+#     function1 (keyword1="keyvalue1",keyword2="keyvalue2",keyword3="keyvalue3")
+#     print(f" {key} : {value}")
