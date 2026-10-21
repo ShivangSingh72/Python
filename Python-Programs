@@ -315,3 +315,13 @@ print(keys)
 #     print(x,y)
 
 # print("-------------------------------------------------")
+
+# print(thisdict.keys())
+# for key in thisdict.keys():
+#     print(key)
+
+# print("-------------------------------------------------")
+
+# print(thisdict.values())
+# for value in thisdict.values():
+#     print(value)
