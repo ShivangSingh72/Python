@@ -274,3 +274,14 @@ keys = myfamily.keys()
 for key in keys:
 	print(f"inside :{key}")
 print(keys)
+
+# ============================================================================================================
+
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+# collections = []
+# collections.extend (adj + fruits)
+# print(collections)
+
+# for x in collections :    
+#     print(x
