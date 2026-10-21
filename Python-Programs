@@ -234,3 +234,12 @@ while i < len(thislist):
 #     newlist.append(x)
 
 # print(newlist)
+
+
+# thistuple = ("apple", "banana", "cherry")
+# thistuple.remove("apple")
+# print(thistuple)
+
+# thistuple = ("apple", "banana", "cherry")
+# i=0
+# print(thistuple[i])
