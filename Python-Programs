@@ -325,3 +325,15 @@ print(keys)
 # print(thisdict.values())
 # for value in thisdict.values():
 #     print(value)
+
+# ============================================================================================================
+# ------------------------ GLOBAL SCOPE-----------------------------
+# x= 100
+# def afunc ():
+#     print(x)
+# afunc()
+# print(x)
+
+# def myfunc():
+#     print(x)
+# myfunc()
