@@ -458,3 +458,15 @@ class Animal:
 
   def speak(self):
     print(self.animal() + f" says !{self.sound}")
+
+
+class Dog(Animal):
+    pass
+
+class Cat(Animal):
+    pass
+
+d1 = Dog("Buddy" , 3, "Woof")
+c1 = Cat("Kitty" , 2, "Meow")
+d1.speak()
+c1.speak()
