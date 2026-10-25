@@ -419,3 +419,13 @@ p1 = Person("John", 36, "New York", "USA")
 p2 = Person("Alice", 30, "London")
 p1.details()
 p2.details()
+
+class Dog:
+  def __init__(self, name, age):
+          self.name = name
+          self.age = age
+  def bark(self):
+    print(f"{self.name} is {self.age} years old.")
+
+d1 = Dog("Buddy" , 3)
+d1.bark()
