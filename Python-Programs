@@ -429,3 +429,18 @@ class Dog:
 
 d1 = Dog("Buddy" , 3)
 d1.bark()
+
+class Dog:
+  def __init__(self, name, age):
+          self.name = name
+          self.age = age
+
+  def animal(self):
+    return (f"{self.name} is {self.age} years old.")
+
+  def speak(self):
+    dog = self.animal()
+    print(dog + " says Woof!")
+
+d1 = Dog("Buddy" , 3)
+d1.speak()
