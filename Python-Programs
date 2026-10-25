@@ -368,3 +368,11 @@ print(keys)
 # Dog1 = Dog("husky","456")
 # Owner2 = Owner("DEF", "123")
 # Dog2 = Dog("wolf","456")
+
+# print(Dog1.name)
+# print(Owner1.name)
+# print(Dog1)
+# print(Owner1)
+
+# log(Dog1,Owner1)
+# log(Dog2,Owner2)
