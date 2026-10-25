@@ -358,3 +358,13 @@ print(keys)
 
 #     def __str__(self):
 #         return f"{self.name}({self.address})"
+
+# class log:
+#     def __init__(self,Dog , Owner):
+#         print(
+#             f"{Owner} is owner of dog {Dog}" )
+
+# Owner1 = Owner("ABC", "123")
+# Dog1 = Dog("husky","456")
+# Owner2 = Owner("DEF", "123")
+# Dog2 = Dog("wolf","456")
