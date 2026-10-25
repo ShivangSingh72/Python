@@ -376,3 +376,17 @@ print(keys)
 
 # log(Dog1,Owner1)
 # log(Dog2,Owner2)
+
+# ============================================================================================================
+# ------------------------ Exception Handling -----------------------------
+try: 
+	n = 0
+	res = 100 / n
+except ZeroDivisionError:
+	print("you cannot divide by zero")
+except ValueError:
+	print("invalid input")
+else: 
+	print("division successful")
+finally:
+  print("execution complete")
