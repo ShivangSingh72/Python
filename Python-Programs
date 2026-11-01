@@ -466,6 +466,28 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 
+class Animal:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def animal(self):
+        print(f"{self.name} is {self.age} years old")
+
+    def speak(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def speak(self):
+        print("!Woof")
+
+class Cat(Animal):
+    def speak(self):
+        print("!Meow")
+
+d1 = Dog("Buddy" ,3)
+c1 = Cat("Kitty" , 2)
+
 d1 = Dog("Buddy" , 3, "Woof")
 c1 = Cat("Kitty" , 2, "Meow")
 d1.speak()
