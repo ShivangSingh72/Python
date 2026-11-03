@@ -492,3 +492,13 @@ d1 = Dog("Buddy" , 3, "Woof")
 c1 = Cat("Kitty" , 2, "Meow")
 d1.speak()
 c1.speak()
+
+import matplotlib.pyplot as plt
+# x = [1,2,3,4,5]
+# y = [2,4,6,8,10]
+
+# plt.plot(x , y)
+# plt.title("Line Graph")
+# plt.xlabel("x-axis")
+# plt.ylabel("y-axis")
+# plt.show()    
