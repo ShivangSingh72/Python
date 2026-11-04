@@ -590,3 +590,11 @@ import matplotlib.pyplot as plt
 # plt.xlabel("Marks")
 # plt.ylabel("Frequency")
 # plt.show()
+
+# ------------------------ -----------------------------
+
+# x = [1, 2, 3, 4, 5]
+# y = [2, 4, 6, 8, 10]
+# plt.plot(x, y, linestyle="--", marker="o", color="red", linewidth=2, markersize=8)
+# plt.grid()
+# plt.show()
