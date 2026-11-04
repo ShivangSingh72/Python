@@ -557,3 +557,11 @@ import matplotlib.pyplot as plt
 # plt.xlabel("x-axis")
 # plt.ylabel("y-axis")
 # plt.show()
+
+# x = [1,2,3,4,5]
+# y = [2,4,6,8,10]
+# plt.scatter(x, y, marker = "o", color = "green", s = 500, edgecolor = "red")
+# plt.title("Scatter Plot")
+# plt.xlabel("x-axis")
+# plt.ylabel("y-axis")
+# plt.show()
