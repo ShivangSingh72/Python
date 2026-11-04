@@ -583,3 +583,10 @@ import matplotlib.pyplot as plt
 # plt.xlabel("x-axis")
 # plt.ylabel("y-axis")
 # plt.show()
+
+# marks = [85, 90, 78, 92, 88]
+# plt.hist(marks, bins = 5, color = "blue", edgecolor = "black")
+# plt.title("Histogram")
+# plt.xlabel("Marks")
+# plt.ylabel("Frequency")
+# plt.show()
